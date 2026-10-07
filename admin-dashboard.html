@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Royal Hotel | Admin Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<section class="admin-panel">
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <div class="admin-header">
+
+        <div>
+
+            <h1>
+                Royal Hotel Admin Dashboard
+            </h1>
+
+            <p>
+                Manage your hotel bookings
+            </p>
+
+        </div>
+
+
+        <div class="admin-actions">
+
+            <button id="refresh-btn">
+                🔄 Refresh
+            </button>
+
+            <button id="logout-btn">
+                🚪 Logout
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         STATISTICS
+    ========================== -->
+
+    <div class="admin-cards">
+
+
+        <div class="admin-card">
+
+            <h3>
+                Total Bookings
+            </h3>
+
+            <p id="total-bookings">
+                0
+            </p>
+
+        </div>
+
+
+        <div class="admin-card">
+
+            <h3>
+                Total Guests
+            </h3>
+
+            <p id="total-guests">
+                0
+            </p>
+
+        </div>
+
+
+        <div class="admin-card">
+
+            <h3>
+                Pending
+            </h3>
+
+            <p id="pending-bookings">
+                0
+            </p>
+
+        </div>
+
+
+        <div class="admin-card">
+
+            <h3>
+                Confirmed
+            </h3>
+
+            <p id="confirmed-bookings">
+                0
+            </p>
+
+        </div>
+
+
+        <div class="admin-card">
+
+            <h3>
+                Cancelled
+            </h3>
+
+            <p id="cancelled-bookings">
+                0
+            </p>
+
+        </div>
+
+
+        <!-- TOTAL REVENUE -->
+
+        <div class="admin-card">
+
+            <h3>
+                Total Revenue
+            </h3>
+
+            <p id="total-revenue">
+                ₹0
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         ROOM STATISTICS
+    ========================== -->
+
+    <div class="room-statistics">
+
+        <h2>
+            Room Statistics
+        </h2>
+
+
+        <div class="room-stat-container">
+
+
+            <div class="room-stat">
+
+                <h3>
+                    Deluxe Room
+                </h3>
+
+                <p id="deluxe-count">
+                    0
+                </p>
+
+            </div>
+
+
+            <div class="room-stat">
+
+                <h3>
+                    Premium Room
+                </h3>
+
+                <p id="premium-count">
+                    0
+                </p>
+
+            </div>
+
+
+            <div class="room-stat">
+
+                <h3>
+                    Luxury Suite
+                </h3>
+
+                <p id="luxury-count">
+                    0
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         SEARCH & FILTER
+    ========================== -->
+
+    <div class="booking-filters">
+
+
+        <input
+            type="text"
+            id="search-booking"
+            placeholder="🔍 Search by name, phone or email">
+
+
+        <select id="room-filter">
+
+            <option value="all">
+                All Rooms
+            </option>
+
+            <option value="Deluxe Room">
+                Deluxe Room
+            </option>
+
+            <option value="Premium Room">
+                Premium Room
+            </option>
+
+            <option value="Luxury Suite">
+                Luxury Suite
+            </option>
+
+        </select>
+
+
+        <select id="status-filter">
+
+            <option value="all">
+                All Status
+            </option>
+
+            <option value="Pending">
+                Pending
+            </option>
+
+            <option value="Confirmed">
+                Confirmed
+            </option>
+
+            <option value="Cancelled">
+                Cancelled
+            </option>
+
+        </select>
+
+
+        <button id="clear-filters">
+            Clear Filters
+        </button>
+
+
+    </div>
+
+
+    <!-- =========================
+         BOOKINGS
+    ========================== -->
+
+    <div class="booking-list">
+
+
+        <h2>
+            All Bookings
+        </h2>
+
+
+        <div id="bookings-container">
+
+            <!-- Bookings appear here -->
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- =========================
+     JAVASCRIPT
+========================== -->
+
+<script src="admin.js"></script>
+
+
+</body>
+
+</html>

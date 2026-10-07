@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Royal Hotel | Admin Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         ADMIN NAVIGATION
+    ========================== -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Royal Hotel - Admin
+        </div>
+
+
+        <ul>
+
+            <li>
+                <a href="index.html">
+                    Website
+                </a>
+            </li>
+
+            <li>
+                <a href="#"
+                   onclick="logoutAdmin()">
+                    Logout
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+
+    <!-- =========================
+         ADMIN DASHBOARD
+    ========================== -->
+
+    <section class="admin-panel">
+
+        <h1>
+            Admin Dashboard
+        </h1>
+
+        <p>
+            Manage Royal Hotel bookings
+        </p>
+
+
+
+        <!-- =========================
+             DASHBOARD CARDS
+        ========================== -->
+
+        <div class="admin-cards">
+
+
+            <!-- TOTAL BOOKINGS -->
+
+            <div class="admin-card">
+
+                <h3>
+                    Total Bookings
+                </h3>
+
+                <p id="total-bookings">
+                    0
+                </p>
+
+            </div>
+
+
+
+            <!-- AVAILABLE ROOMS -->
+
+            <div class="admin-card">
+
+                <h3>
+                    Available Rooms
+                </h3>
+
+                <p id="available-rooms">
+                    20
+                </p>
+
+            </div>
+
+
+
+            <!-- ROOM STATUS -->
+
+            <div class="admin-card">
+
+                <h3>
+                    Room Status
+                </h3>
+
+                <p id="room-status">
+                    All Rooms Available
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =========================
+             BOOKINGS
+        ========================== -->
+
+        <div class="booking-list">
+
+            <h2>
+                Recent Bookings
+            </h2>
+
+
+            <div id="bookings-container">
+
+                <p>
+                    No bookings available.
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =========================
+         ADMIN JAVASCRIPT
+    ========================== -->
+
+    <script src="admin.js"></script>
+
+
+</body>
+
+</html>

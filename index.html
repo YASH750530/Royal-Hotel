@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Royal Hotel | Luxury & Comfort</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Royal Hotel
+        </div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#booking">Booking</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+
+    <!-- =========================
+         HOME
+    ========================== -->
+
+    <header id="home">
+
+        <h1>Royal Hotel</h1>
+
+        <p>
+            Luxury • Comfort • Hospitality
+        </p>
+
+    </header>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section class="hero">
+
+        <h2>
+            Welcome to Royal Hotel
+        </h2>
+
+        <p>
+            Your perfect stay starts here.
+        </p>
+
+        <a href="#booking" class="hero-button">
+            Book Your Stay
+        </a>
+
+    </section>
+
+
+    <!-- =========================
+         ROOMS
+    ========================== -->
+
+    <section class="rooms" id="rooms">
+
+        <h2>Our Rooms</h2>
+
+        <p class="section-subtitle">
+            Choose the perfect room for your stay.
+        </p>
+
+        <div class="room-container">
+
+            <!-- DELUXE ROOM -->
+
+            <div class="room">
+
+                <img
+                    src="https://images.unsplash.com/photo-1611892440504-42a792e24d32"
+                    alt="Deluxe Room">
+
+                <h3>
+                    Deluxe Room
+                </h3>
+
+                <p class="price">
+                    ₹2500 / Night
+                </p>
+
+                <p>
+                    Comfortable room with modern facilities
+                    and a beautiful interior.
+                </p>
+
+                <a href="#booking"
+                   class="room-button"
+                   onclick="selectRoom('Deluxe Room')">
+                    Book Now
+                </a>
+
+            </div>
+
+
+            <!-- PREMIUM ROOM -->
+
+            <div class="room">
+
+                <img
+                    src="https://images.unsplash.com/photo-1590490360182-c33d57733427"
+                    alt="Premium Room">
+
+                <h3>
+                    Premium Room
+                </h3>
+
+                <p class="price">
+                    ₹4000 / Night
+                </p>
+
+                <p>
+                    Spacious premium room with luxury
+                    facilities and comfortable beds.
+                </p>
+
+                <a href="#booking"
+                   class="room-button"
+                   onclick="selectRoom('Premium Room')">
+                    Book Now
+                </a>
+
+            </div>
+
+
+            <!-- LUXURY SUITE -->
+
+            <div class="room">
+
+                <img
+                    src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b"
+                    alt="Luxury Suite">
+
+                <h3>
+                    Luxury Suite
+                </h3>
+
+                <p class="price">
+                    ₹6000 / Night
+                </p>
+
+                <p>
+                    Experience our luxurious suite with
+                    premium comfort and style.
+                </p>
+
+                <a href="#booking"
+                   class="room-button"
+                   onclick="selectRoom('Luxury Suite')">
+                    Book Now
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         GALLERY
+    ========================== -->
+
+    <section id="gallery">
+
+        <h2>
+            Hotel Gallery
+        </h2>
+
+        <p>
+            Explore the beauty of Royal Hotel
+        </p>
+
+        <div class="gallery-container">
+
+            <img
+                src="https://images.unsplash.com/photo-1564501049412-61c2a3083791"
+                alt="Hotel">
+
+            <img
+                src="https://images.unsplash.com/photo-1540518614846-7eded433c457"
+                alt="Hotel Room">
+
+            <img
+                src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7"
+                alt="Hotel Interior">
+
+            <img
+                src="https://images.unsplash.com/photo-1566073771259-6a8506099945"
+                alt="Hotel">
+
+            <img
+                src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa"
+                alt="Hotel">
+
+            <img
+                src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461"
+                alt="Luxury Room">
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SERVICES
+    ========================== -->
+
+    <section id="services">
+
+        <h2>
+            Our Services
+        </h2>
+
+        <p class="services-subtitle">
+            Everything you need for a comfortable
+            and memorable stay.
+        </p>
+
+        <div class="services-container">
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🍽️
+                </div>
+
+                <h3>
+                    Restaurant
+                </h3>
+
+                <p>
+                    Enjoy delicious meals and refreshing
+                    drinks at our hotel restaurant.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🛎️
+                </div>
+
+                <h3>
+                    Room Service
+                </h3>
+
+                <p>
+                    24/7 room service to make your stay
+                    comfortable and convenient.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    📶
+                </div>
+
+                <h3>
+                    Free Wi-Fi
+                </h3>
+
+                <p>
+                    Stay connected with high-speed Wi-Fi
+                    throughout the hotel.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🚗
+                </div>
+
+                <h3>
+                    Free Parking
+                </h3>
+
+                <p>
+                    Safe and convenient parking space
+                    available for our guests.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🏊
+                </div>
+
+                <h3>
+                    Swimming Pool
+                </h3>
+
+                <p>
+                    Relax and enjoy our beautiful
+                    swimming pool.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    ❄️
+                </div>
+
+                <h3>
+                    AC Rooms
+                </h3>
+
+                <p>
+                    Comfortable and fully air-conditioned
+                    rooms for a relaxing stay.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         BOOKING
+    ========================== -->
+
+    <section id="booking">
+
+        <h2>
+            Book Your Stay
+        </h2>
+
+        <p>
+            Fill in the details below to reserve your room.
+        </p>
+
+        <form id="booking-form">
+
+            <div class="form-group">
+
+                <label for="name">
+                    Full Name
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="phone">
+                    Phone Number
+                </label>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                    required>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="email">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required>
+
+            </div>
+
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="checkin">
+                        Check-in
+                    </label>
+
+                    <input
+                        type="date"
+                        id="checkin"
+                        name="checkin"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="checkout">
+                        Check-out
+                    </label>
+
+                    <input
+                        type="date"
+                        id="checkout"
+                        name="checkout"
+                        required>
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="room">
+                    Select Room
+                </label>
+
+                <select
+                    id="room"
+                    name="room"
+                    required>
+
+                    <option value="">
+                        Choose a room
+                    </option>
+
+                    <option value="Deluxe Room">
+                        Deluxe Room - ₹2500
+                    </option>
+
+                    <option value="Premium Room">
+                        Premium Room - ₹4000
+                    </option>
+
+                    <option value="Luxury Suite">
+                        Luxury Suite - ₹6000
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="guests">
+                    Number of Guests
+                </label>
+
+                <input
+                    type="number"
+                    id="guests"
+                    name="guests"
+                    min="1"
+                    max="10"
+                    placeholder="Number of guests"
+                    required>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="message">
+                    Special Request
+                </label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    placeholder="Any special request?"></textarea>
+
+            </div>
+
+
+            <button type="submit">
+                Confirm Booking
+            </button>
+
+
+            <div id="booking-message"></div>
+
+        </form>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section class="contact" id="contact">
+
+        <h2>
+            Contact Us
+        </h2>
+
+        <p>
+            📞 +91 7505301816
+        </p>
+
+        <p>
+            📧 royalhotel@gmail.com
+        </p>
+
+        <p>
+            📍 Mathura, Uttar Pradesh
+        </p>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Royal Hotel. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript File -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
