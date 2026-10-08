@@ -7,7 +7,7 @@
 // BACKEND API
 // =========================
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://royal-hotel-h2mc.onrender.com";
 
 
 // =========================

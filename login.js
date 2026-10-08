@@ -3,7 +3,7 @@
 // JWT BACKEND VERSION
 // =========================================
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://royal-hotel-h2mc.onrender.com";
 
 const loginForm =
     document.getElementById("login-form");
