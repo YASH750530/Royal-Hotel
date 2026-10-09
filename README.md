@@ -38,3 +38,12 @@ Never upload database credentials, API secrets, JWT secrets, or `.env` files to 
 **Yash Gautam**
 
 GitHub: [YASH750530](https://github.com/YASH750530)
+
+## Live Demo
+
+Visit the deployed website:
+https://royal-hotel-1.onrender.com
+
+## Project Repository
+
+GitHub: https://github.com/YASH750530/Royal-Hotel
