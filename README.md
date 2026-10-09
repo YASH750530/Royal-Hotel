@@ -44,6 +44,10 @@ GitHub: [YASH750530](https://github.com/YASH750530)
 Visit the deployed website:
 https://royal-hotel-1.onrender.com
 
+## Website Preview
+
+![Royal Hotel Homepage](screenshots/homepage.png)
+
 ## Project Repository
 
 GitHub: https://github.com/YASH750530/Royal-Hotel
